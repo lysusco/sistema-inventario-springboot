@@ -11,7 +11,7 @@ Digitalizar el control de inventario: registrar productos con stock mínimo, aso
 - Java 17
 - Spring Boot 3
 - Spring Data JPA / Hibernate
-- PostgreSQL (configurable a MySQL, SQL Server u Oracle)
+- MySQL (configurable a PostgreSQL, SQL Server u Oracle)
 - Maven
 - (Opcional) Spring Security + JWT para autenticación
 
@@ -34,13 +34,13 @@ sistema-inventario-springboot/
 ## Cómo ejecutar
 
 1. Instala Java 17 y Maven.
-2. Crea la base de datos `inventario_db` en PostgreSQL.
+2. Crea la base de datos `inventario_db` en MySQL (o déjala que se cree automáticamente).
 3. Configura credenciales en `src/main/resources/application.properties`.
 4. Ejecuta:
    ```bash
    mvn spring-boot:run
    ```
-5. API disponible en `http://localhost:8080/api/productos`.
+5. API disponible en `http://localhost:8085/api/productos`.
 
 ## Endpoints principales
 

@@ -1,0 +1,4 @@
+com\lysusco\inventario\model\Producto.class
+com\lysusco\inventario\controller\ProductoController.class
+com\lysusco\inventario\InventarioApplication.class
+com\lysusco\inventario\repository\ProductoRepository.class
